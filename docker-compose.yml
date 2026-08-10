@@ -1,0 +1,18 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.5-flash}
+      APP_PASSWORD: ${APP_PASSWORD}
+      HEADLESS: "true"
+      GOOGLE_CREDENTIALS_PATH: /secrets/credentials.json
+      GOOGLE_TOKEN_PATH: /secrets/token.json
+    volumes:
+      - ./credentials.json:/secrets/credentials.json:ro
+      - ./token.json:/secrets/token.json
+      - ./templates:/app/templates
+      - ./data:/app/data
+      - ./tracker.db:/app/tracker.db

@@ -1,0 +1,828 @@
+{
+  "version": 2,
+  "categories": [
+    "General",
+    "Menopause / hysterectomy",
+    "Does DITTO help with...",
+    "Period changes",
+    "Pregnancy",
+    "Allergens",
+    "Is the supplement safe for shellfish/fish",
+    "Medication",
+    "Taking DITTO with other supplements",
+    "Iron",
+    "Regarding orders",
+    "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+    "How supplement looks",
+    "Taking the supplements",
+    "Why am I feeling...",
+    "Questions about the contents",
+    "Ideas from customer",
+    "Reviews",
+    "Tips",
+    "Customer Call",
+    "Ads"
+  ],
+  "active_categories": [
+    "General",
+    "Menopause / hysterectomy",
+    "Does DITTO help with...",
+    "Period changes",
+    "Pregnancy",
+    "Allergens",
+    "Is the supplement safe for shellfish/fish",
+    "Medication",
+    "Taking DITTO with other supplements",
+    "Iron",
+    "Regarding orders",
+    "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+    "How supplement looks",
+    "Taking the supplements",
+    "Why am I feeling...",
+    "Questions about the contents",
+    "Ideas from customer",
+    "Reviews",
+    "Tips",
+    "Customer Call",
+    "Ads"
+  ],
+  "templates": [
+    {
+      "id": "36a6c772-53db-4c21-812e-ff415dc79eba",
+      "name": "Nice openers",
+      "category": "General",
+      "content": "Hello X, I hope you’re having a lovely day and excited that you’re interested in DITTO!\n\nSo excited that you're interested in Ditto!",
+      "active": true
+    },
+    {
+      "id": "6b1faffb-4f28-4375-9667-12bdcee67f94",
+      "name": "Nice end",
+      "category": "General",
+      "content": "Do let me know if you have any other questions",
+      "active": true
+    },
+    {
+      "id": "d791043a-ca52-4bc9-886c-17c04da986d6",
+      "name": "Is this suitable for teenagers?",
+      "category": "General",
+      "content": "Yes it is suitable for teens",
+      "active": true
+    },
+    {
+      "id": "4d701538-16cd-4a5f-9689-6122cba84234",
+      "name": "Review",
+      "category": "General",
+      "content": "Can I ask a little favour? Would you mind leaving us a review? It makes a huge difference for us as a small business 😊 https://uk.trustpilot.com/review/dittodaily.com",
+      "active": true
+    },
+    {
+      "id": "6546801b-538e-4aed-8840-21062466c402",
+      "name": "Is this good for perimenopause?",
+      "category": "Menopause / hysterectomy",
+      "content": "DITTO is helpful at this time yes, as it firstly continues to address cycle-related symptoms which often become more erratic during perimenopause due to the hormonal fluctuations, but stem from the same mechanisms it targets. What’s also great is the majority of the nutrients in DITTO have been clinically tested specifically in perimenopausal women with positive results on symptoms during these times especially on cognition, mood and sleep 😊x",
+      "active": true
+    },
+    {
+      "id": "6ef5069e-ef0f-4bdf-a3ef-0e1ab8caf90a",
+      "name": "Is this good for menopause?",
+      "category": "Menopause / hysterectomy",
+      "content": "Absolutely - DITTO targets both mental and physical symptoms through certain mechanisms that make it effective for non-cyclical as well. What’s also great is that the majority of the ingredients have been clinically tested in perimenopausal and menopausal women, showing positive results for symptoms during these life stages - especially for cognition, hot flashes, and mood-related concerns. So even when cycles become erratic or stop altogether, the formula remains evidence-based and effective for those outcomes 😊",
+      "active": true
+    },
+    {
+      "id": "45a8af8b-3592-4dcf-beae-5760ff021c31",
+      "name": "Is this good for PCOS",
+      "category": "Menopause / hysterectomy",
+      "content": "DITTO can help with the following PCOS-specific symptoms: insulin sensitivity, follicular development, hirsutism, cardiovascular risk factors (through the nutrients vitamin D, zinc, magnesium, omega-3, chromium). Every other nutrient in DITTO also helps with PMS symptoms, which many experience alongside PCOS.\n\nBelow is some research on these nutrients in DITTO, specifically conducted on individuals with PCOS ☺️ . We have also had some great feedback! In our trustpilot reviews if you type in PCOS you can see what others have experienced - this link should take you straight to it with the search applied ☺️. Just so you know, it's also completely fine to take Ditto alongside My Ova if you were to continue both.\n\nMeta-analysis of 10 studies: Wang L, Wen X, Lv S, Tian S, Jiang Y, Yang X. Effects of vitamin D supplementation on metabolic parameters of women with polycystic ovary syndrome: a meta-analysis of randomized controlled trials. Gynecol Endocrinol. 2021;37(5):446-455. \n\nMeta-analysis of 9 studies: Fang F, Ni K, Cai Y, Shang J, Zhang X, Xiong C. Effect of vitamin D supplementation on polycystic ovary syndrome: A systematic review and meta-analysis of randomized controlled trials. Complement Ther Clin Pract. 2017;26:53-60.\n\nJamilian M, Asemi Z. Chromium Supplementation and the Effects on Metabolic Status in Women with Polycystic Ovary Syndrome: A Randomized, Double-Blind, Placebo-Controlled Trial. Ann Nutr Metab. 2015;67(1):42-48\n\nAshoush S, Abou-Gamrah A, Bayoumy H, Othman N. Chromium picolinate reduces insulin resistance in polycystic ovary syndrome: Randomized controlled trial. J Obstet Gynaecol Res. 2016;42(3):279-285\n\nAfshar Ebrahimi F, Foroozanfard F, Aghadavod E, Bahmani F, Asemi Z. The Effects of Magnesium and Zinc Co-Supplementation on Biomarkers of Inflammation and Oxidative Stress, and Gene Expression Related to Inflammation in Polycystic Ovary Syndrome: a Randomized Controlled Clinical Trial. Biol Trace Elem Res. 2018;184(2):300-307.\n\nJamilian M, Foroozanfard F, Bahmani F, Talaee R, Monavari M, Asemi Z. Effects of Zinc Supplementation on Endocrine Outcomes in Women with Polycystic Ovary Syndrome: a Randomized, Double-Blind, Placebo-Controlled Trial. Biol Trace Elem Res. 2016;170(2):271-278.\n\nMeta-analysis of 10 studies: Xia Y, Wang Y, Cui M, Su D. Efficacy of omega-3 fatty acid supplementation on cardiovascular risk factors in patients with polycystic ovary syndrome: a systematic review and meta-analysis. Ann Palliat Med. 2021;10(6):6425-6437.\n\nMeta-analysis of 9 studies: Yang K, Zeng L, Bao T, Ge J. Effectiveness of Omega-3 fatty acid for polycystic ovary syndrome: a systematic review and meta-analysis. Reprod Biol Endocrinol. 2018;16(1):27.",
+      "active": true
+    },
+    {
+      "id": "5ed7be52-fa0e-4c01-85ab-b851c86a1f87",
+      "name": "Can I take this if I have had a hysterectomy?\n\nIf you feel their question needs more explanation of how it works if you have had a hysterectomy / keeping or not keeping ovaries - forward to Alice",
+      "category": "Menopause / hysterectomy",
+      "content": "Yes",
+      "active": true
+    },
+    {
+      "id": "1655db89-96fe-47d7-8f8e-e9dad03ca507",
+      "name": "Does the supplement help with adenomyosis",
+      "category": "Does DITTO help with...",
+      "content": "We have had some great feedback! In our trustpilot reviews if you type in adenomyosis you can see what others have experienced - this link should take you straight to it with the search applied if you have a scroll: https://uk.trustpilot.com/review/dittodaily.com?search=adenomyosis",
+      "active": true
+    },
+    {
+      "id": "04398c80-bba0-42aa-9a11-6fe6bca3a44e",
+      "name": "Endometriosis",
+      "category": "Does DITTO help with...",
+      "content": "While Ditto was primarily designed to target premenstrual symptoms (PMS or PMDD) and period pain, it also contains several nutrients that can support endometriosis. For some ingredients, this evidence comes from clinical trials in endometriosis patients specifically (e.g. chamomile extract for reducing endo-specific pelvic pain, painful intercourse and period pain).\n\nIt also contains supportive nutrients where there are significantly higher risks of deficiency in endometriosis (vitamin D and iron), and additional that mechanistically should show benefit (magnesium and zinc - due to their impact on oxidative stress and pain pathways) - but have not been researched as interventions in endometriosis specifically yet, due to the terrible lack of focus on researching the condition.\n\nBecause of the above, so far the supplement has been popular and extremely well received in the endometriosis community. If you scroll down and search \"endometriosis\" or \"endo\" in our trustpilot reviews you can see this feedback (here).",
+      "active": true
+    },
+    {
+      "id": "f4c4cd60-9770-480d-8f4d-c0bfb16cd47c",
+      "name": "IBS / Crohn's",
+      "category": "Does DITTO help with...",
+      "content": "Our clinical trial assessed menstrual cycle symptoms but we plan to do more clinical trials, so in the future that might be something we look at, especially considering IBS can be affected by the cycle!",
+      "active": true
+    },
+    {
+      "id": "54ef45e9-2536-4c05-b6ff-ae4eb8ffd3f7",
+      "name": "Fibromyalgia",
+      "category": "Does DITTO help with...",
+      "content": "So Ditto wasn't specifically designed for fibromyalgia, it's formulated around PMS, PMDD, and period pain, but there is some interesting crossover. Vitamin D, magnesium, and iron have all been cited in the literature as potentially supportive for fibro symptoms, and those are all in our formula. We can't promise anything though, as we haven't clinically tested it in fibromyalgia specifically. But we thought it worth mentioning.",
+      "active": true
+    },
+    {
+      "id": "e4c9350c-52f6-4621-a8bd-a127f6c6691d",
+      "name": "Migraines",
+      "category": "Does DITTO help with...",
+      "content": "Regarding migraines, yes, Ditto targets this - it contains magnesium which is actually recommended by the Migraine Trust, and headaches significantly improved in our clinical trial 🙂",
+      "active": true
+    },
+    {
+      "id": "0f3a4166-7ab2-4eba-b2a1-59ec53e6f051",
+      "name": "My period is late since DITTO / bleeding changes",
+      "category": "Period changes",
+      "content": "Thank you for reaching out about this and I'm really sorry to hear your period is really late. That must feel quite unsettling.\nThis is not something that we have had reported with DITTO so far but I completely understand your concern about it being connected!\nChanges in bleeding patterns are typically caused by hormonal changes, which DITTO isn't designed to target, so it would be unexpected that it has this influence. The way DITTO works is not by altering your hormones directly, but instead it targets the \"in-between\" processes that happen after your hormones shift and result in symptoms (e.g. inflammation, neurotransmitter function). \n\nI don't want to be dismissing you but rather reassure you. You know your body best. I would really like to stay close to your feedback if you really feel they could be connected.  Please let me know if it continues and how I can support you in any way. I would like to make sure you are doing okay!",
+      "active": true
+    },
+    {
+      "id": "9b4df2cb-4667-4757-8505-e8ddda5e400e",
+      "name": "Can I take this supplement if I am breastfeeding / pregnant?",
+      "category": "Pregnancy",
+      "content": "We are not officially allowed to answer questions about pregnancy or breastfeeding, as it counts ‘medical advice’. However a healthcare professional (e.g. pharmacist or doctor) is able to answer this for you!",
+      "active": true
+    },
+    {
+      "id": "20c84687-2a21-41af-b387-4de9f9a760ff",
+      "name": "Can I take this supplement if I am trying to conceive?",
+      "category": "Pregnancy",
+      "content": "When it comes to the areas of trying to conceive, pregnancy and breastfeeding we are not officially allowed to give a yes or no answer, as it counts as medical advice which we are not officially allowed to give! But a healthcare professional such as a doctor or pharmacist can advise you.",
+      "active": true
+    },
+    {
+      "id": "0b82e89a-a478-4803-a396-1baeee79d06a",
+      "name": "Are the supplements safe for nut allergy sufferers?\nDo they contain nuts?",
+      "category": "Allergens",
+      "content": "While there are no nut or nut-derived ingredients used in this formulation, we have not conducted a dedicated “nut-free” allergen test on this product. As such, we cannot confirm zero trace risk.",
+      "active": true
+    },
+    {
+      "id": "35f5df42-11dc-4f9d-b0d6-897a6e2e9238",
+      "name": "Are they vegan",
+      "category": "Allergens",
+      "content": "Yes",
+      "active": true
+    },
+    {
+      "id": "a3f1fe1c-d989-447d-8f3e-ecd32dc614ae",
+      "name": "Do the supplements contain soya",
+      "category": "Allergens",
+      "content": "They do not contain soya.",
+      "active": true
+    },
+    {
+      "id": "a730274c-4dd0-44fd-913c-4a080b7e9d4b",
+      "name": "Do the supplements contain gluten",
+      "category": "Allergens",
+      "content": "They do not contain gluten.",
+      "active": true
+    },
+    {
+      "id": "0e67b16d-7ee0-4efd-b5ab-ecd237a8b577",
+      "name": "Citrus allergy",
+      "category": "Is the supplement safe for shellfish/fish",
+      "content": "The tabs do contain natural citrus oils, used to give a pleasant scent rather than as an active ingredient - they're not for consumption, but with an allergy we'd absolutely recommend erring on the side of caution and avoiding them.\n\nReally sorry about this, gutted we can't help right now! We will look into alternatives in future so hopefully one day you can give Ditto a try!",
+      "active": true
+    },
+    {
+      "id": "41e2d705-b1a6-48a7-b7ed-9ee5825da318",
+      "name": "Can I take this supplement with X medication? Does it interact with X medication?\nEXCEPT FOR HRT AND HORMONAL CONTRACEPTION (see next)",
+      "category": "Medication",
+      "content": "We wish we could help and reply but we are not officially allowed to answer any questions about medical conditions or medication, as it counts as ‘medical advice’! However if you have any concerns about it, a healthcare professional (e.g. pharmacist or doctor) is able to answer this for you.",
+      "active": true
+    },
+    {
+      "id": "7d6da3af-0362-4aed-9c27-97e160f21eb8",
+      "name": "Clinic told them to ask us",
+      "category": "Medication",
+      "content": "As your question relates to IVF / pregnancy, we’re unfortunately not able to answer a yes or no. I'm so sorry! Giving guidance in this area would fall under \"medical advice\", which we’re not permitted to offer. We must guide you to check with a medical professional such as your doctor or the specialist at the clinic, as they should be well placed and able to advise you. I’m so sorry again that we can’t be more specific and that your clinic directed you to us!",
+      "active": true
+    },
+    {
+      "id": "956ef76f-644a-472b-bee7-6be02d273f72",
+      "name": "Can I take this supplement if I am on hormonal contraception/ the pill / coil /  HRT / hormone replacement therapy / hormone patches",
+      "category": "Medication",
+      "content": "Yes absolutely!",
+      "active": true
+    },
+    {
+      "id": "2dc8bef9-b33d-4c26-904b-d139558066b7",
+      "name": "Can I take vitamin D alongside DITTO?",
+      "category": "Taking DITTO with other supplements",
+      "content": "Another Vitamin D is absolutely fine to take alongside it. Something you may just want to consider is that by doubling up you don't get an excessive dose above the \"safe upper limit\".\n\nThe safe upper limit for Vitamin D is 4000 IU per day (100 micrograms) and DITTO contains much less with 600 IU per day (15 micrograms) so hopefully there's room there to take them both!",
+      "active": true
+    },
+    {
+      "id": "a305a5f0-7582-4d28-906c-be708c5eb60d",
+      "name": "Can I take lions mane alongisde DITTO?",
+      "category": "Taking DITTO with other supplements",
+      "content": "Yes you can!",
+      "active": true
+    },
+    {
+      "id": "edf0cfa7-385f-468c-97af-7f9b57d07805",
+      "name": "Can I take creatine and collagen alongside DITTO?",
+      "category": "Taking DITTO with other supplements",
+      "content": "Yes!",
+      "active": true
+    },
+    {
+      "id": "84ad46d3-ff06-453e-9889-26d51e7bf7cb",
+      "name": "Why haven't you for vitamin k2 as it needs to be taken with vitamin D",
+      "category": "Taking DITTO with other supplements",
+      "content": "I hope you’re well and so excited that you’re interested in DITTO! \n\nIt's actually a common misconception that Vitamin K2 is needed for vitamin D absorption 😊.  Pairing them would provide no benefit unless you're specifically looking to target bone health. I will explain!\n1. Vitamin D absorbs beautifully on its own! You'll often see D3 and K2 paired together, but that's because they work as a team after absorption - specifically for bone health, where they collaborate in calcium metabolism. One isn't actually necessary for absorbing the other. Since DITTO isn't formulated for bone health, including K2 would mean adding an ingredient that isn't directing its effects where we need them, and we'd rather keep every ingredient designed to target menstrual cycle-related mechanisms and pathways.\n\n2. Some sources suggest K2 is needed to prevent vitamin D from causing calcium buildup in the blood, but this has only been shown to potentially happen at excessive doses well above the \"safe upper limit\". The safe upper limit for vitamin D is 100 micrograms (4,000 IU) - that's 6-7 times higher than what's in DITTO! So there's absolutely no risk unless your other supplements take you above this threshold.\n\nI hope this helps clarify things! 🙂",
+      "active": true
+    },
+    {
+      "id": "44fbc89d-4a84-4714-8677-e823a6c2e4bf",
+      "name": "Magnesium/iron/chromium/zinc should not be taken together?",
+      "category": "Taking DITTO with other supplements",
+      "content": "we use the amount demonstrated to be effective in menstrual cycle symptoms, adjusted for our form's bioavailability so you are all good",
+      "active": true
+    },
+    {
+      "id": "518ba472-e1c1-4c1a-8817-9d96920197df",
+      "name": "Can I take magnesium with DITTO?",
+      "category": "Taking DITTO with other supplements",
+      "content": "Yes absolutely!",
+      "active": true
+    },
+    {
+      "id": "c59a5706-e79e-4cb6-97fa-339f625e1c32",
+      "name": "Can I take vitamin B6",
+      "category": "Taking DITTO with other supplements",
+      "content": "The \"safe upper limit\" before it can get harmful is 10mg/day. Ditto provides 1.4mg so if you were to keep your other too, just be mindful how much they add up to!",
+      "active": true
+    },
+    {
+      "id": "b9e539bf-3cec-4661-86fe-7e253c663b2a",
+      "name": "Questions about doses / can I combine with these other supplements I am taking",
+      "category": "Taking DITTO with other supplements",
+      "content": "Forward to Alice",
+      "active": true
+    },
+    {
+      "id": "2ddb6e12-8cbc-4692-aac7-caac6cea88bd",
+      "name": "Omega 3",
+      "category": "Taking DITTO with other supplements",
+      "content": "Totally fine to take additional alongside, a reason you might want to do this if you have additional health goals beyond cycle support e.g. you are vegetarian.",
+      "active": true
+    },
+    {
+      "id": "f6ce1cda-35d6-44cf-87b2-21d08acdb46b",
+      "name": "St John's Wort",
+      "category": "Taking DITTO with other supplements",
+      "content": "Yes absolutely",
+      "active": true
+    },
+    {
+      "id": "c4e35ac0-e33e-4d53-882b-af94050696d9",
+      "name": "Coq10",
+      "category": "Taking DITTO with other supplements",
+      "content": "Yes absolutely",
+      "active": true
+    },
+    {
+      "id": "941207b2-6549-41b1-9de8-236ca5f9b8e8",
+      "name": "Probiotic",
+      "category": "Taking DITTO with other supplements",
+      "content": "All good",
+      "active": true
+    },
+    {
+      "id": "a2eb910a-f3ca-4690-8cfa-79be99ce782b",
+      "name": "I am sensitive to iron will I be able to tolerate the iron in your supplement?",
+      "category": "Iron",
+      "content": "Totally understand your concern for stomach issues! This was actually something I factored in when choosing the iron form. DITTO contains ferrous bisglycinate which is known as ‘gentle iron’ as its preferred by those with gut sensitivity and causes less GI effects in studies.",
+      "active": true
+    },
+    {
+      "id": "a746479c-b68d-46b8-bf44-98276c69e736",
+      "name": "Isn't iron supposed to be taken on an empty stomach / not with food because of absorption? I have coffee in the morning will this interfere with iron absorption? will my breakfast interfere with iron absorption?",
+      "category": "Iron",
+      "content": "The form of iron we use (ferrous bisglycinate) has a chemical composition that actually helps protect it from dietary inhibitors like coffee so it’s all good if you did want to stick with morning 😊",
+      "active": true
+    },
+    {
+      "id": "d0fc7b30-0eac-4264-bf3f-0d7cc3e19943",
+      "name": "Isn't iron supposed to be taken every other day for absorption?",
+      "category": "Iron",
+      "content": "Forward to Alice",
+      "active": true
+    },
+    {
+      "id": "da1fd71f-cebf-4d01-a4f4-f84abd35a825",
+      "name": "Can I take iron with DITTO",
+      "category": "Iron",
+      "content": "Many customers choose to replace their current iron supplements with Ditto, since it provides 100% of the recommended daily amount for iron 👍\nIf you prefer to take another iron supplement with DITTO, just check that your combined intake stays below the safe upper limit of 45 mg per day (unless you're deficient and get prescribed more) – Ditto contains 14 mg 😊",
+      "active": true
+    },
+    {
+      "id": "b0d44631-0d58-4664-99aa-5cc6e7a81c7f",
+      "name": "Where are my pouches?",
+      "category": "Regarding orders",
+      "content": "I'm really sorry to hear you have only received 1 pouch of 3 - that's not great at all! What happened was we got back to full stock in early June, so the warehouse had instructions to send all 3 pouches out together, but then there was a picking error so it didn't happen   Super annoying!\n\nor Thank you for choosing us to support your cycle!",
+      "active": true
+    },
+    {
+      "id": "6774297d-c039-409b-85cd-3b108d9876f4",
+      "name": "Create 2x or 3x on their subscription on the customer portal",
+      "category": "Regarding orders",
+      "content": "So, you will get that message when trying to buy a new subscription with the same email address as an old one, and really what you need to do is:1. go into your customer portal to view your subscription here2. click 'edit' 3. click the plus sign to change it from 1 to 2",
+      "active": true
+    },
+    {
+      "id": "00c02933-06a6-4fdb-9ab6-9c2f55117f46",
+      "name": "Cancel but order has been made already",
+      "category": "Regarding orders",
+      "content": "Unfortunately, the order has already been completed so it is on the way to you. Once it arrives, you can return it and I will process the refund. The address for the return is:\nFAO: DITTO DAILY LTD\nCodestorm Ltd, 2 Navigation Dr, Brierley Hill DY5 1UT\n\nTo make this easier and quicker for you: as soon as you have a return tracking code, we can process your refund right away. Just send us a quick photo of the tracking receipt or label, and we’ll take it from there. Sorry for the extra hassle!",
+      "active": true
+    },
+    {
+      "id": "aeda2f4f-1348-4180-9b17-1d03b8cd24fb",
+      "name": "Cancel / pause",
+      "category": "Regarding orders",
+      "content": "All changes to your subscription are made in the customer portal, which can be found on our website. To make it even quicker, you can access the customer portal here. Once you're in, press 'edit' and then select 'Cancel Subscription' at the bottom of the page.",
+      "active": true
+    },
+    {
+      "id": "8e182358-2cd0-4f04-a4b9-1680d73ee8f8",
+      "name": "Still active after cancelling",
+      "category": "Regarding orders",
+      "content": "I'm so sorry about this - we upgraded our subscription platform last week so the system reactivated a few subscriptions that were cancelled. Not ideal, we know! All good though, I have cancelled it for you now",
+      "active": true
+    },
+    {
+      "id": "72b06a68-9ce1-4f6d-bcaa-f2fc6e5b0a21",
+      "name": "Cancelling link doesn't work",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "I can certainly cancel it for you. Just so you don't miss out, I can offer you a 40% discount before you cancel - do you want this or I can go ahead and cancel for you? I am on it and will get it sorted as soon as you let me know.",
+      "active": true
+    },
+    {
+      "id": "2299c9ca-f8d1-48dc-904f-627e2b7acfab",
+      "name": "Returns",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "We can absolutely process a refund for a return. The address for the return is: \nFAO: DITTO DAILY LTD\nCodestorm Ltd, 2 Navigation Dr, Brierley Hill DY5 1UT\n\nTo make this easier and quicker for you: as soon as you have a return tracking code, we can process your refund right away. Just send us a quick photo of the tracking receipt or label, and we’ll take it from there.",
+      "active": true
+    },
+    {
+      "id": "b4c54219-fb64-4441-870d-ae1d31e61c54",
+      "name": "Refunds",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "To process the refund, I have to calculate it as a monthly subscription now as you only remained with us for two months (instead of six). That means that the total refund is £49.50 and I have processed that now for you.",
+      "active": true
+    },
+    {
+      "id": "47f843a7-2ee4-48a7-832a-19a545f04159",
+      "name": "Referrals / refer a friend (where's my 50%)",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Your friend will have a unique URL that she needs to share with you. When you open our site using that URL, the 50% discount will be auto applied and when you makes a purchase, your friend will get an email with the £10 code.",
+      "active": true
+    },
+    {
+      "id": "ed95dacf-d276-46f5-941e-1d0560b05749",
+      "name": "Referrals (where's my £10 credit)",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "On our website you create a unique URL that you share with your friend. When they open that URL, the 50% discount will be auto applied and when they make a purchase, you will get an email with the £15 code",
+      "active": true
+    },
+    {
+      "id": "952bbaf1-a657-426e-95cc-21d9dbfe2005",
+      "name": "Germany",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "I am so sorry, we'd love to help but we have actually stopped shipping to Germany because of issues with customs. Do you have a friend elsewhere we could send it to who could then get it to you?",
+      "active": true
+    },
+    {
+      "id": "f1b6602e-fd5c-4803-8933-19042fb7693e",
+      "name": "Dubai",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Delivery to Dubai can be really touch and go because of customs, unfortunately. So we do not to ship there anymore because it's just not guaranteed that the parcels will get through to you.",
+      "active": true
+    },
+    {
+      "id": "3e093078-509c-4a35-b86e-d893f0f75589",
+      "name": "Customs fee",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Oh no, I am so so sorry about all of this. It's not the experience we want anyone to have with their order, and I completely understand how frustrating it is to be hit with a surprise fee, especially one that feels far higher than what you actually paid, on top of a wait that's already gone on too long. 🤦\nCustoms charges are set by your country's local authority rather than by us, so we don't have visibility on the amount in advance, which I know doesn't make it any easier on your end. The fee is usually calculated on the order's full RRP rather than the price you actually paid after any discount, which is why it can come in feeling much steeper than the order was worth to you. That's on the customs side, not something we choose, but I'm really sorry it's landed this way.\nOnce a parcel is held at customs, the clock pauses on delivery until the fee is paid. Usually the postal service or local customs office sends a notification with the amount and how to settle it. If nothing's come through yet, it's worth checking your spam folder, or contacting your local post office or customs authority directly. Once it's paid, the parcel is normally released within a few days.\nIf you'd rather not pay the customs fee, you can simply not pay it, or reject the charge, and the parcel will be returned to us. As soon as it's back with us I'll process a full refund straight away.\nI really am so sorry again for the rough first delivery. Let me know how you'd like to play it and I'll sort it from here.",
+      "active": true
+    },
+    {
+      "id": "631a89bd-8f88-4fe0-834b-1c84995e9b67",
+      "name": "Only 28 capsules",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Ahh, yes it should indeed only have one pouch, so that's correct. However each pouch does contain 56 capsules which is enough for 28 days (2 capsules per day). So you're all set with that! Sorry for the confusion! Have you counted the capsules yet?",
+      "active": true
+    },
+    {
+      "id": "4afc8e9c-4a62-4a64-a8b3-0b7af0062aa2",
+      "name": "No pouch included",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "I'm really sorry to hear there wasn't any pouch included in your order - there should have been! There was a problem at our warehouse where the technology wasn't including the pouches - not ideal at all! I've resent your pouch so it will be with you shortly. Really sorry again, we are excited for you to try our supplements too!",
+      "active": true
+    },
+    {
+      "id": "4bdf4ca6-3618-435e-865f-af099bb2f328",
+      "name": "1 capsule short",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Sorry about the odd number of capsules! The capsule counter is correct 99.9% of the time but it sometimes counts one extra or one less. Even machines aren't perfect! I will refund £1 for the odd number of capsules - sorry about that!",
+      "active": true
+    },
+    {
+      "id": "9eb53d45-de78-4f8d-abf2-2bf5c714a305",
+      "name": "CHERRY50 / OCEAN50",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "These codes are for first-time purchase only and only one use per customer with subscriptions",
+      "active": true
+    },
+    {
+      "id": "0ad7f43b-0461-4c0e-b809-ae915043503d",
+      "name": "DITTO music",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "This is a frustrating glitch and we are trying to fix this. Thank you so much for letting us know. It is all okay though - that is from us :)",
+      "active": true
+    },
+    {
+      "id": "4d8a020c-17df-4015-983b-25fe57aee567",
+      "name": "Why 28 days long",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Each Ditto pouch is a 28 day supply because, during pre-launch testing with hundreds of women, this was the preferred option, as it best aligned with lived experience. As 28 days reflects the average menstrual cycle length, many found it the most intuitive and practical to follow. \n\nWe’ve aimed to make this as clear as possible by stating \"12 weeks’ supply every 12 weeks\" when this option is selected on our website, and this has generally received positive feedback. \n\nThat said, I completely understand how it could still be confusing, and I really appreciate you bringing it to our attention. To help make this right, I’ve refunded £5 to you. Your remaining two pouches for the 3 months are on their way.\n\nThank you again for your thoughtful feedback - it’s incredibly valuable as we continue to improve our communication. Please don’t hesitate to reach out if you have any further thoughts. \n\nWarm regards, \n\nAlice",
+      "active": true
+    },
+    {
+      "id": "4f7994a9-9292-4fc3-bb11-d78e3c1b22c8",
+      "name": "Change my billing address",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "I can only change your shipping address, so you will have to change your billing address on your Shop Pay account. To do so, please follow these steps:\n\n1. Visit shop.app/shop-pay in your browser.\n2. Sign in using your registered email address.\n3. Once logged in, you'll be able to update your billing address and any other account details from there.\n\nIf you run into any difficulties, the Shop Help Center at help.shop.app has further guidance and support. 🙂",
+      "active": true
+    },
+    {
+      "id": "4d99316b-872c-4bcd-bbc6-1c0e12d72092",
+      "name": "Phone number needed (international orders)",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Thank you so much for choosing DITTO to support your cycle, we're so glad to have you with us. ☺️\n\nWe're getting your order ready to send out, but we need one small thing from you first. Royal Mail has just introduced a new rule for international parcels: they now require a mobile number on file for customs clearance. It's a change on their end, not ours, but without it your parcel could get held up or delayed at the border.\n\nWould you mind replying to this email with a mobile number we can add to your order? As soon as we have it, we'll get everything on its way to you.\n\nThank you for bearing with us on this one, we really appreciate it.\n\nAll the best,\nAnita",
+      "active": true
+    },
+    {
+      "id": "8d807301-7bfb-4040-996d-8289ca7b94e8",
+      "name": "Trouble logging in (post migration)",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Oh gosh, sorry about that! We upgraded our subscription platform a couple of weeks ago so you just need a new link to login. Does this link work?",
+      "active": true
+    },
+    {
+      "id": "5df230ee-5438-428d-b30a-f00ecf9f802d",
+      "name": "I paused, not cancelled",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "We upgraded our subscription platform last week so we don't have the pause option anymore, but you can skip an order or reschedule it still! Would you like me to reactivate your susbcription and do that for you?",
+      "active": true
+    },
+    {
+      "id": "3c2345b4-17e1-44c7-b2f7-902643a3ec04",
+      "name": "Royal Mail 24",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "If you order today and it ships with Royal Mail 24, today doesn't count towards delivery. The countdown starts tomorrow, so you'd be looking at delivery by [date] at the earliest, and [date] at the very latest if there's any delay.\n\nRoyal Mail 24 aims for next working day, so I'd expect it sooner rather than later.",
+      "active": true
+    },
+    {
+      "id": "1feed0cf-f523-44af-b00d-90315946ce0c",
+      "name": "Discount code won't work",
+      "category": "I'm incredibly sorry about this. We switched our subscription platforms and are having some issues, including orders being automatically processed. We deeply apologise for this.",
+      "content": "Sorry to hear the code isn't working! Can I just check that you're buying a subscription? The discount codes only work for first time orders on subscription, not for the one-time purchase",
+      "active": true
+    },
+    {
+      "id": "0a776106-988a-42de-8d20-6250f6bbdd65",
+      "name": "Black bead",
+      "category": "How supplement looks",
+      "content": "Sometimes the beadlets can get a little black dot from getting in contact with oxygen in the air (it's something called oxidation) so it's nothing to worry about.",
+      "active": true
+    },
+    {
+      "id": "d9418d1c-5107-495c-b400-ae5a32516b24",
+      "name": "If bead looks bad",
+      "category": "How supplement looks",
+      "content": "Ahh I see, although it's fine, I understand that's not the most enticing supplement to take - we will send you a replacement",
+      "active": true
+    },
+    {
+      "id": "957a49b2-55b3-4d33-8354-d95dfd2c9953",
+      "name": "Discoloured supplements yellow",
+      "category": "How supplement looks",
+      "content": "I know and we are pretty sad about this! We tried a new batch of Omega 3 on this production round and although it is just as effective as always, it is much less aesthetic ☹️ It makes everything look so much more amber. \n\nRest assured, the supplement is as good as ever - it’s just less pretty this time. We will be reverting to our trusty Omega 3 from now on and so your capsules will be back to their best looking self in a week or so. \n\nHow are you getting on with the supplements?  😊",
+      "active": true
+    },
+    {
+      "id": "f548b621-9c0e-40e2-b91e-e2b42477b0ba",
+      "name": "Discoloured supplements - pink",
+      "category": "How supplement looks",
+      "content": "Last production run, we tried a new batch of Omega 3 and although it was just as effective, it was much less aesthetic ☹️. We were pretty sad about this - it made everything look so much more amber.  Rest assured, the supplement was as fab as always - it was just less pretty. \n\nGood news though that we are now back with the original Omega 3 and so our capsules are back to their best looking pink selves! 🩷\n\nHow are you getting on with the supplements? 😊",
+      "active": true
+    },
+    {
+      "id": "6006ff0c-78a3-430c-ac02-af7919e3c7e8",
+      "name": "Lighter pink",
+      "category": "How supplement looks",
+      "content": "As we use natural and not synthetic colouring (we use beetroot extract to make them pink), it means each batch has a slight variation in colour. Sometimes they're darker pink, sometimes they're lighter pink - but it's all good!",
+      "active": true
+    },
+    {
+      "id": "16444a4b-c792-484e-9505-f0c19cc956fd",
+      "name": "Third party testing",
+      "category": "How supplement looks",
+      "content": "I want to reassure you that every batch of our supplements is independently third-party tested, and the formula remained exactly the same, as well as the levels of actives. The only change was switching from a specialist sourced clear omega-3 to a standard omega-3, which is the yellow one commonly used in supplements (omega-3 is naturally yellow).",
+      "active": true
+    },
+    {
+      "id": "56b919a3-8d01-4a36-82fe-0e90f09c712e",
+      "name": "scentcert (dont call it scentcert) but if they ask what the tab is for",
+      "category": "How supplement looks",
+      "content": "The tab is to infuse the supplement with an orange taste & smell. It's there because the omega-3 oil (vegan algae source) usually makes supplements smell and taste fishy, which can be unpleasant so we didn't want you guys to be hit with that! It's made from all-natural flavourings. If you like a stronger orange scent/taste, leave it in; if you'd prefer it lighter, just take it out.",
+      "active": true
+    },
+    {
+      "id": "098f51d9-8f61-4f5d-8c59-4f0e3aab28ed",
+      "name": "Can these supplements be taken at X time of day",
+      "category": "Taking the supplements",
+      "content": "Yes they are effective taken any time of day so best to choose whenever suits you best to build the habit.",
+      "active": true
+    },
+    {
+      "id": "6d22d8b1-2132-4f2b-a956-e0056d7276b5",
+      "name": "Trouble swallowing",
+      "category": "Taking the supplements",
+      "content": "The biotechnology used for our capsules requires the pellets inside to be consumed whole. However, you can cut the capsules open and pour the contents into yogurt if that is easier for you to swallow.",
+      "active": true
+    },
+    {
+      "id": "08a7e2e6-8ea4-47dc-a022-ff2cc8551060",
+      "name": "Don't like orange scent",
+      "category": "Taking the supplements",
+      "content": "I understand your concerns regarding the orange scent. To help reduce it, you can remove the orange tab immediately after opening your pouch and dispose of it. If you leave the lid of your pot open for a couple of days to allow the capsules to breathe, the scent should fade and make them more enjoyable for you.",
+      "active": true
+    },
+    {
+      "id": "cfc99a19-0c3b-4000-832b-e691f490be17",
+      "name": "Why am i getting these funny tasting burps",
+      "category": "Taking the supplements",
+      "content": "The burp-back you mention can happen for some people when taking oil-containing supplements. The flavour you're noticing might taste a bit like tea or flowers as it comes from the chamomile oil. \n\nHere's what's happening: imagine a bottle of salad dressing before you shake it - the oil and water naturally separate. Similarly, when oil from the supplement is released in the stomach, it floats to the surface of the stomach contents and can sometimes cause that burp-back taste. \n\nIf it bothers you, you could try taking the capsules at night time instead (this timing wont impact effectiveness of the supplement). Most customers also note that the burps go after a couple weeks of use.",
+      "active": true
+    },
+    {
+      "id": "2dff841b-5810-447c-88ac-2449714fd148",
+      "name": "Just luteal phase?",
+      "category": "Taking the supplements",
+      "content": "Regarding taking in your luteal phase only, the ingredients in DITTO are acutally only shown to be effective for reducing symptoms in clinical trials when taken every day. This is because they take several weeks to build up and support certain processes (e.g. inflammatory and oxidative stress pathways, neurotransmitter function) that then make our body and brain much more resilient to the impact of hormonal shifts when they come around. In other words, you're setting a foundation to manage symptoms before they arise. \n\nHowever, having gaps by taking them on-and-off / only in certain phases, or taking them only when symptoms are about to hit, doesn't allow that build up time to support and prevent symptoms developing as intensely. It's not immediately 'reactive' like a painkiller, but instead effects gradually build over 1-3 months and then continue to proactively and consistently support you. I hope that makes sense!",
+      "active": true
+    },
+    {
+      "id": "31dad399-fd6e-42fd-8f2a-4fc9c3285661",
+      "name": "Can I take just 1 daily",
+      "category": "Taking the supplements",
+      "content": "Taking 2 capsules daily is more effective than 1 so the benefits will take longer to appear.",
+      "active": true
+    },
+    {
+      "id": "40742d98-6780-44b8-97a9-231667c6b601",
+      "name": "Dizziness / lightheaded",
+      "category": "Why am I feeling...",
+      "content": "While dizziness or vertigo is not a reported side effect, we understand that individual responses to supplements can vary, and we are committed to investigating any concerns raised by our customers.",
+      "active": true
+    },
+    {
+      "id": "ebb49ca0-81b8-452f-becd-7e61de7ae69c",
+      "name": "I am bloated/constpated/gut issues now",
+      "category": "Why am I feeling...",
+      "content": "I am sorry to hear you're having some gut issues/  The one ingredient that could be the culprit for this is iron. For DITTO we specifically chose a form called ferrous bisglycinate which is known as ‘gentle iron’ as research shows it's preferred by those with gut sensitivity and it causes less GI effects than usual iron forms, that said - individual sensitivity varies widely so there is a chance a small proportion can still have some troubles. You could definitely try dropping down to one capsule for a couple of weeks and see if that helps, and if so, you could try moving back up to two again. Please let me know how that goes for you!",
+      "active": true
+    },
+    {
+      "id": "7df1cb17-1b55-4d81-abad-b1d59f865a1f",
+      "name": "I am feeling sick/nauseous/headaches taking these supplements",
+      "category": "Why am I feeling...",
+      "content": "Thanks for reaching out - I’m sorry you’re feeling like that! 😔 Nutrients are only usually documented to have an influence on nausea/headaches when they are taken in excessively high doses (much higher than in DITTO) so it is unusual that you’re experiencing this! However if you think it is related, you could try taking them at night (it won’t impact effectiveness), or with food if you are not doing that already. Please do let me know if it improves or if you have any ongoing issues, very happy to help",
+      "active": true
+    },
+    {
+      "id": "e00d01f5-a754-4fa7-a549-75487d181740",
+      "name": "How long to feel full effects",
+      "category": "Why am I feeling...",
+      "content": "To feel the full benefits of the supplement, it's recommended to take it daily for at least 3 full menstrual cycles. While many will experience shifts within the first few weeks, clinical trials consistently show modest effects during the first cycle, with far more significant improvements felt during the 2nd or 3rd cycle of daily supplementation.\n\nWhen taking nutrition supplements, it typically takes several weeks to feel noticeable effects because they need time to interact with your body’s ongoing cellular processes and support them optimally (e.g. energy metabolism, inflammatory pathways, and neurotransmitter function). As they build up to support you, your body and brain then gradually become more resilient to the impact of hormonal shifts.",
+      "active": true
+    },
+    {
+      "id": "765df408-4d27-416d-9f38-0a8977b80e13",
+      "name": "Still no effects",
+      "category": "Why am I feeling...",
+      "content": "The one thing I'd want to check - although I imagine you were doing this already - is whether you've been taking 2 capsules every single day consistently? That daily consistency makes a real difference to its efficacy.\n\nHowever, our studies on Ditto showed that by Cycle 3, 88-93% of participants had reduced symptom severity. That does mean around 1 in 10 may not meaningfully respond, and I'm really sorry it hasn't been what you hoped for.\n\nWhatever you'd like to do next, I'm here to help. For example, if you'd like to pause or cancel your subscription, just say the word and I'll take care of it immediately.\n\nWe really do hope you find something that gives you those incredibly difficult days back - you very much deserve it.",
+      "active": true
+    },
+    {
+      "id": "bef73ffc-0e7d-4e3c-b668-c269b01df960",
+      "name": "Throat issues",
+      "category": "Why am I feeling...",
+      "content": "I'm really sorry to hear about the nose and throat issues, that does sound uncomfortable.\n\nThis isn't something we've come across before, and I am so gutted you are experiencing it! I wondered - do you have any known sensitivities that could potentially be related to any ditto ingredients? That might help us get to the bottom of it!\n\nAnd in the meantime, taking it every other day is a good idea to see if that helps - it may not be quite as effective as taking it daily, but it's definitely better at supporting you than not taking it at all, and your comfort has to come first (and especially when ditto is supposed to be making things easier).\n\nSo sorry again and hope we can figure this out for you!",
+      "active": true
+    },
+    {
+      "id": "657ecac0-3b65-41f8-bb40-0a5832a91f44",
+      "name": "tired",
+      "category": "Why am I feeling...",
+      "content": "I'm so sorry you're feeling tired! It could possibly be the chamomile extract, it's shown in studies to have a 'calming' effect which is how it improves menstrual-related mood disorders. However, I wonder if you are feeling this a bit too much! It could be a good idea to take the two capsules at night instead if it bothers you? The time of day you take them won't impact their effectiveness.",
+      "active": true
+    },
+    {
+      "id": "21b99d1e-7af2-49ac-9c2e-c439483d7e58",
+      "name": "Hives",
+      "category": "Why am I feeling...",
+      "content": "While we haven't had this reported before, individual sensitivities can absolutely occur with any supplement or food item. We never want you to push through anything that feels uncomfortable or concerning. I've listed the full ingredients below in case it's helpful.",
+      "active": true
+    },
+    {
+      "id": "797ae5af-84ab-48cf-b639-c67cc7e37659",
+      "name": "Breast tenderness",
+      "category": "Why am I feeling...",
+      "content": "The clinical trial on Ditto found it did indeed reduce breast tenderness  .The ingredients behind this effect include magnesium, which helps reduce the fluid-retention that contributes to breast swelling, and chamomile extract - which has anti-inflammatory properties. Both are shown in studies to ease cyclical breast tenderness.",
+      "active": true
+    },
+    {
+      "id": "d27eebb5-29e0-4a9a-b109-a39eb302d79b",
+      "name": "Night Sweats",
+      "category": "Why am I feeling...",
+      "content": "Night sweats, however, isn't an outcome that's been measured in the studies behind our individual ingredients, or in our own trial, so we can't make a confident judgement on this. Thank you for raising it, it is definitely something we should look for in our future trials as you are not the only person in the community who has asked about it, so it would clearly be very helpful for us to investigate.",
+      "active": true
+    },
+    {
+      "id": "edc08cff-802d-4820-ad85-dcb22d4a7e16",
+      "name": "Restless legs",
+      "category": "Why am I feeling...",
+      "content": "We haven't seen restless legs reported as an effect of Ditto, and it's not something that studies on the individual ingredients have found. In fact, one study on saffron extract found it may actually help reduce RLS symptoms! If you are experiencing this and it is bothering you, it might be worth speaking to your GP, as they'd be best placed to help identify a cause",
+      "active": true
+    },
+    {
+      "id": "37a4a201-168e-4ffd-b1f9-28fa24a7ef3b",
+      "name": "Acid reflux",
+      "category": "Why am I feeling...",
+      "content": "I'm so sorry you're dealing with that acid reflux 😞 Just an idea, if you want to try, but have you tried taking them after food? You could try splitting the dose between AM and PM, or try taking the capsules at night time instead (this timing wont impact effectiveness of the supplement).",
+      "active": true
+    },
+    {
+      "id": "ae967832-3ebe-43db-acbd-7670d16118f4",
+      "name": "Losing effect",
+      "category": "Why am I feeling...",
+      "content": "I completely understand your concern, this must be so incredibly disheartening. I want to reassure you: the nutrients in Ditto should not cause tolerance or acclimatisation. They work by supporting optimal physiological function (neurotransmitter synthesis and function, inflammation, oxidative stress and water-retention). But they're not working like certain medications where your body adapts and needs higher doses. That said, I know how frustrating it must be to experience symptoms returning after such wonderful relief initially. I am really sorry about this!\n\nI am hoping this is some unlucky fluctuation that is temporary, but I'd suggest continuing to take it consistently for 1-2 more cycles to see if this evens out.  If symptoms continue to creep back in over the next couple of months, please can you get back in touch? I'd love to help work through this with you and support you with next steps! It's also worth considering whether anything else has shifted recently that could have an impact?",
+      "active": true
+    },
+    {
+      "id": "4eddd32b-0e84-48e4-8ec4-dd10fcf1e7df",
+      "name": "Anxious / irritable",
+      "category": "Why am I feeling...",
+      "content": "Irritability is one of the symptoms that it is found to reduce so hopefully this takes a turn for you 🤞. That said, it’s completely your call - if you feel unsure or would prefer to stop, we completely understand and want you to feel comfortable in your decision. Especially since you likely already have enough on your plate to have found Ditto in the first place.",
+      "active": true
+    },
+    {
+      "id": "594d637d-16a5-49b1-b78b-5cc38ba2d611",
+      "name": "Mood Swings",
+      "category": "Why am I feeling...",
+      "content": "To answer your question about if it's normal - we have not had this reported before. Mood swings and low mood are both symptoms that DITTO is found to reduce so hopefully this takes a turn for you . That said, it’s completely your call - if you feel unsure or would prefer to stop, we completely understand and want you to feel comfortable in your decision. Especially since you likely already have enough on your plate to have found Ditto in the first place.",
+      "active": true
+    },
+    {
+      "id": "04f12fad-e898-4f92-8224-d77e2c2d5b1f",
+      "name": "Acne",
+      "category": "Why am I feeling...",
+      "content": "I'm so sorry to hear you're experiencing this - it is not supposed to happen! This isn't a known side effect of any of the nutrients within Ditto. Some of the ingredients like vitamin C and zinc are well-established for supporting skin health, so we'd expect them to be helpful rather than aggravating. I'm sorry it's been your experience!\n\nThat said, we would never want you to push through if you're worried there may be a link - Ditto is here to make things easier, not add to your plate. We're here to support whatever you decide to do",
+      "active": true
+    },
+    {
+      "id": "6ac9e9f0-7a02-4f30-bd9d-d098018fedc5",
+      "name": "Sleep disruption",
+      "category": "Why am I feeling...",
+      "content": "I am so sorry to hear about the disruptions to your sleep! We haven't had reports of this before, but if you think they're connected, you could try taking them at night time and see if that helps 🙂",
+      "active": true
+    },
+    {
+      "id": "f570f5d9-6d68-4450-b78d-357a7938f7b5",
+      "name": "low libido",
+      "category": "Why am I feeling...",
+      "content": "To answer your question about if it's normal - we have not had this reported before and it's puzzling as saffron extract (one of the ingredients) has been shown in several studies to support libido, but that said, there can always be individual responses to supplements. We really do hope this will improve again 🤞",
+      "active": true
+    },
+    {
+      "id": "435c6c4e-dc7f-42d6-a024-a1e4c600459f",
+      "name": "Why does this supplement not contain Vitex agnus castus / chasteberry?",
+      "category": "Questions about the contents",
+      "content": "The studies on this ingredient for PMS and PMDD are unfortunately very low quality with high risk of bias. Recent reviewers have concluded that the resaerch available right now is misleading and the majority of studies can't be used as evidence for it's efficacy. Since the evidence wasn't solid enough, we decided not to include it in DITTO. We only wanted ingredients where we're confident the research actually backs them up!",
+      "active": true
+    },
+    {
+      "id": "741baff3-b6a0-45e2-8058-fd5793beaaa4",
+      "name": "Your supplement has too low doses",
+      "category": "Questions about the contents",
+      "content": "We have conducted a clinical trial on DITTO and 88% of participants had a significant reduction in their overall symptom severity by cycle 3. Symptom severity scores dropped from an average rating of ‘moderate-severe’ to ‘barely noticeable’ in this time. So we’re very confident that it has a meaningful impact and hopefully that reassures you! 😊",
+      "active": true
+    },
+    {
+      "id": "35226fe5-2301-4bcb-9804-187f3b2dc01c",
+      "name": "What's the Omega3 from",
+      "category": "Questions about the contents",
+      "content": "Our Omega 3 is sourced from Algal Oil. Our supplement is actually fully vegan.",
+      "active": true
+    },
+    {
+      "id": "a67f01df-d648-43ce-b97e-58d2064bea83",
+      "name": "Why haven't you used affron branded saffron",
+      "category": "Questions about the contents",
+      "content": "We chose not to use Affron® for Ditto for quite a few reasons! The first is because it hasn't been specifically studied in PMS or PMDD research. We wanted to stick with the saffron extract that has clinical evidence in supporting the populations we're here to help.\n\nSecondly, the Affron® branded extract has only been studied since 2017 and has just 11 trials so far (some of these not measuring mood). Standard saffron extract, on the other hand, has a much longer research history going back to the early 2000s, with many hundreds of studies showing benefits. From what we can see from the totality of the research, there isn't strong evidence that Affron is better - especially not for what we're trying to achieve.\n\nAnd finally, one thing you'll often read is that Affron is standardised (meaning consistent amount of actives in each batch - which is great). The good news is that we standardise our saffron extract too! We test every single batch to make sure it's consistent with the amount of active ingredients it provides. Affron is standardised to contain at least 3.5% of the combined bioactive compounds, and we exceed this in DITTO with 6.56% (4.27% crocin, 2.29% safranal), which is very high quality.\n\nI thought you might find these meta-analyses interesting:\n\n- The well-cited depression meta-analyses (12 and 5 studies, but none of the studies used Affron): https://pubmed.ncbi.nlm.nih.gov/32221179/ and  https://pmc.ncbi.nlm.nih.gov/articles/PMC4643654/\n\n- A 46-study meta-analysis (only 4 used Affron) – the other studies showed positive effects across the board: https://pubmed.ncbi.nlm.nih.gov/38424688/\n\n- PMS study: https://www.sciencedirect.com/science/article/pii/S187638201530010X\n\n- PMDD study: https://pmc.ncbi.nlm.nih.gov/articles/PMC7792881/\n\nThe capsules contain the therapeutic dose of saffron extract used in PMDD (30mg/day).I\n\nI hope this helps answer your question!",
+      "active": true
+    },
+    {
+      "id": "a49ea330-d678-47c6-87d4-f2a9e1571db0",
+      "name": "Why is magnesium so low",
+      "category": "Questions about the contents",
+      "content": "our dose is shown to reduce menstrual cycle related symptoms, but if you want to achieve a higher dose for other health goals, you may wish to continue.",
+      "active": true
+    },
+    {
+      "id": "b017d84e-0636-4e75-9fe6-fe0964f3ab79",
+      "name": "What's capsule made from",
+      "category": "Questions about the contents",
+      "content": "the capsule is made from HPMC, a form of cellulose derived from plant fibers.",
+      "active": true
+    },
+    {
+      "id": "f9e2fdb8-82a3-42f1-9a8b-99e67b25b8a0",
+      "name": "Why no calcium?",
+      "category": "Questions about the contents",
+      "content": "We did not include calcium, because while some evidence suggests benefit in PMS, there is actually growing research raising concerns about potential cardiovascular risks specifically from calcium when it's taken from supplements. \n\nThis is because of the \"surge\" that taking it in supplement form can cause, which is thought to contribute to arterial calcification (please note: dietary sources are not linked to this and absolutely fine). We did not want to introduce this risk, and since there are so many other powerful nutrients target the same symptoms, upon weighing everything up we decided not to include this one in particular.",
+      "active": true
+    },
+    {
+      "id": "9650d922-b552-465e-8cc2-7bf6837815f2",
+      "name": "Don't like the orange",
+      "category": "Questions about the contents",
+      "content": "Regarding the tab - it is purely for scent! Many people in the community remove the tab immediately after opening the pack. You can also keep the lid off of the pot for a couple of days to allow the scent to fade a bit. The tab itself is plastic and naturally scented.",
+      "active": true
+    },
+    {
+      "id": "f6057c6c-bbb7-43aa-8b97-cf5449809aff",
+      "name": "What are capsules made from",
+      "category": "Questions about the contents",
+      "content": "The capsules themselves are made of HPMC, which is vegan and derived from natural cellulose.",
+      "active": true
+    },
+    {
+      "id": "17dacf68-a442-44fe-ac75-0f6d2aa74491",
+      "name": "Suggestions",
+      "category": "Ideas from customer",
+      "content": "We are grateful for your suggestion too - we will absolutely keep innovating with different ways to target PMS through supplements in the future - it really deserves more options.",
+      "active": true
+    },
+    {
+      "id": "bc14e6cc-23af-4f7d-ba93-28c2d2eda47a",
+      "name": "second review!",
+      "category": "Reviews",
+      "content": "We really appreciate you taking the time to share your experience. As you continue to have a good experience (and if you wouldn't mind of course!), would you mind leaving a second review? It is awesome to share because customers can see the continued positive effect. https://uk.trustpilot.com/review/dittodaily.com",
+      "active": true
+    },
+    {
+      "id": "fe3365e7-8401-4319-8059-20e57dd9edc2",
+      "name": "to reduce period pain",
+      "category": "Tips",
+      "content": "Things like stress and sleep quality and worth being mindful of, but also the Mediterranean diet pattern is suggested by our medical advisor Gynae Geek to potentially be beneficial; she wrote an article detailing that, and lots of other science behind period pain here: https://dittodaily.com/blogs/news/period-pain?_pos=2&_sid=254efc5a2&_ss=r",
+      "active": true
+    },
+    {
+      "id": "db3373c0-791c-4149-b2a4-d86d70778f76",
+      "name": "Follow up",
+      "category": "Customer Call",
+      "content": "Hey [x]\n\nIt was so lovely speaking with you on [x] 😊  thank you for being so open about your journey. Hearing your experience firsthand genuinely means a lot, and it's exactly this kind of conversation that helps us understand what's actually going on for people in their cycle. \n\nAs a small thank you, I've added a £15 voucher to your account — you'll see it waiting for you when you next check out. ✨\n\nOne more thing: if you'd be willing to leave us a Trustpilot review, it would make a huge difference. People who are mid-search, trying to figure out whether to give DITTO a go, rely on honest accounts like yours more than anything else we could say. You can use this link: https://www.trustpilot.com/review/dittodaily.com\n\nThanks again, [x]! Really glad you're part of the DITTO community. 🥰✨\n\nAll the best,\nAnita",
+      "active": true
+    },
+    {
+      "id": "3ec8f983-4cd8-4096-a8d9-2c91a2ef4f9f",
+      "name": "Booking",
+      "category": "Customer Call",
+      "content": "Thanks so much for getting back to me and letting me know your availability! Sorry for the delay in getting back to you though - things have been busy this end 😅\n\nDo you have any availability on [x]? 🙂\n\nAll the best,\nAnita",
+      "active": true
+    },
+    {
+      "id": "f51f6ff6-aa27-4ee1-ac94-e68853c0638d",
+      "name": "Funny email",
+      "category": "Ads",
+      "content": "By the way, I really enjoyed your comment so much that I wonder if we can use it in one of our Insta ads? Like we could screenshot the email and remove your name / email address? I'd be happy to give you £5 off your next order!",
+      "active": true
+    }
+  ]
+}

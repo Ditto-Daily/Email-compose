@@ -1,0 +1,11 @@
+__pycache__/
+.env
+.venv/
+bin/
+credentials.json
+token.json
+tracker.db
+tracker.db-shm
+tracker.db-wal
+.streamlit/secrets.toml
+bin/
