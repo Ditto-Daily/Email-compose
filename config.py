@@ -13,6 +13,7 @@ TEMPLATES_DIR = BASE_DIR / "templates"
 
 STANDARD_TEMPLATE_PATH = TEMPLATES_DIR / "standard.txt"
 TEMPLATES_JSON_PATH = TEMPLATES_DIR / "templates.json"
+WRITING_STYLE_PATH = TEMPLATES_DIR / "writing_style.txt"
 DATABASE_PATH = BASE_DIR / "tracker.db"
 GOOGLE_CREDENTIALS_PATH = Path(
     os.getenv("GOOGLE_CREDENTIALS_PATH", BASE_DIR / "credentials.json")
@@ -31,10 +32,34 @@ GMAIL_SCOPES = [
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 
 
+DEFAULT_WRITING_STYLE = """Always start the reply with:
+Hello {customer_name},
+
+Use the customer's first name from the email when it is clear. If the name is unclear, use:
+Hello,
+
+Always end the reply with one of these sign-offs (prefer "All the best" unless the tone is more formal):
+
+All the best,
+Anita
+
+or
+
+Best regards,
+Anita
+
+If the customer used "x" in their email as kisses (for example ending with "x" or "xx"), include a matching "x" after the sign-off.
+
+Keep the tone warm, natural, and personal. Do not invent a customer name.
+""".strip()
+
+
 def ensure_app_files() -> None:
-    """Create runtime directories when absent."""
+    """Create runtime directories and default style rules when absent."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     TEMPLATES_DIR.mkdir(parents=True, exist_ok=True)
+    if not WRITING_STYLE_PATH.exists():
+        WRITING_STYLE_PATH.write_text(DEFAULT_WRITING_STYLE + "\n", encoding="utf-8")
 
 
 def _secrets_mapping():

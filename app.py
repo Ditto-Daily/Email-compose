@@ -11,6 +11,7 @@ import config
 import db
 from config import (
     GOOGLE_CREDENTIALS_PATH,
+    WRITING_STYLE_PATH,
     apply_runtime_secrets,
     ensure_app_files,
 )
@@ -64,8 +65,8 @@ st.caption(
     "Manage templates in Settings."
 )
 
-inbox_tab, template_tab = st.tabs(
-    ["📥 Inbox & Manual Draft", "⚙️ Template Settings"]
+inbox_tab, style_tab, template_tab = st.tabs(
+    ["📥 Inbox & Manual Draft", "✍️ Writing Style", "⚙️ Template Settings"]
 )
 
 with inbox_tab:
@@ -157,6 +158,31 @@ with inbox_tab:
         except Exception as exc:
             logger.exception("Inbox loading failed")
             st.error(f"Could not load Gmail inbox: {exc}")
+
+with style_tab:
+    st.subheader("Writing style rules")
+    st.caption(
+        "These rules are always included in Gemini's context for every draft "
+        "(greeting, sign-off, kisses 'x', and tone)."
+    )
+    try:
+        current_style = WRITING_STYLE_PATH.read_text(encoding="utf-8")
+    except FileNotFoundError:
+        current_style = config.DEFAULT_WRITING_STYLE + "\n"
+        WRITING_STYLE_PATH.write_text(current_style, encoding="utf-8")
+
+    edited_style = st.text_area(
+        "Always-on writing style prompt",
+        value=current_style,
+        height=360,
+        help="Changes apply to the next Draft Email Now / Draft All Unread run.",
+    )
+    if st.button("💾 Save writing style", type="primary"):
+        if not edited_style.strip():
+            st.error("Writing style cannot be empty.")
+        else:
+            WRITING_STYLE_PATH.write_text(edited_style.rstrip() + "\n", encoding="utf-8")
+            st.success("Writing style saved. Future drafts will use it immediately.")
 
 with template_tab:
     st.subheader("Response template library")
