@@ -169,15 +169,28 @@ def get_gmail_service():
     return build("gmail", "v1", credentials=credentials, cache_discovery=False)
 
 
+# Contact-form notifications land in Updates; still include this sender.
+SHOPIFY_CONTACT_FROM = "mailer@shopify.com"
+
+
 def get_unread_emails(max_results: int = 25) -> list[dict[str, Any]]:
-    """Return parsed unread inbox messages, excluding Promotions and Social."""
+    """Return parsed unread inbox messages, excluding Promotions and Social.
+
+    Updates are excluded except for Shopify contact-form mail
+    (mailer@shopify.com), which Anita needs to draft replies for.
+    """
     service = get_gmail_service()
+    # Normal primary mail, plus Shopify contact forms that Gmail puts in Updates.
+    query = (
+        "is:unread in:inbox -category:promotions -category:social "
+        f"(-category:updates OR from:{SHOPIFY_CONTACT_FROM})"
+    )
     response = (
         service.users()
         .messages()
         .list(
             userId="me",
-            q="is:unread in:inbox -category:promotions -category:social -category:updates",
+            q=query,
             maxResults=max_results,
         )
         .execute()
