@@ -11,14 +11,13 @@ Replies are saved as **Gmail drafts only**. Nothing is sent automatically. Anita
 | Item | Value |
 | --- | --- |
 | **Hosting** | [Streamlit Community Cloud](https://share.streamlit.io) |
+| **Live app** | [https://email-compose.streamlit.app/](https://email-compose.streamlit.app/) |
 | **GitHub** | [`Ditto-Daily/Email-compose`](https://github.com/Ditto-Daily/Email-compose) |
 | **Branch / entrypoint** | `main` → `app.py` |
 | **Inbox** | Company Gmail (`hello@dittodaily.com`) via OAuth |
 | **Access** | App password gate (`APP_PASSWORD` in Streamlit secrets) |
 
-Live URL: open [share.streamlit.io](https://share.streamlit.io) → your workspace → the **Email Compose** app (or ask the repo admin).
-
-CSM day-to-day needs: **Streamlit URL + app password**. Everything else (templates, style, drafts) is in the dashboard / Gmail.
+CSM day-to-day needs: **[the live app](https://email-compose.streamlit.app/) + app password**. Everything else (templates, style, drafts) is in the dashboard / Gmail.
 
 Detailed secrets setup: see [`DEPLOY.md`](./DEPLOY.md).
 
