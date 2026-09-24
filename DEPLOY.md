@@ -19,7 +19,8 @@ Paste this shape (replace the values):
 
 ```toml
 GEMINI_API_KEY = "your-gemini-key"
-GEMINI_MODEL = "gemini-3.5-flash"
+# Tried in order. If one is busy or out of free quota, the next one is used.
+GEMINI_MODELS = ["gemini-3.5-flash", "gemini-3.6-flash", "gemini-3.8-flash", "gemini-3.5-flash-lite"]
 APP_PASSWORD = "shared-password-for-anita"
 
 google_credentials_json = """

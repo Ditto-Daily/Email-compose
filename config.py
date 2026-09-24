@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 from pathlib import Path
+from typing import Any
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -20,7 +21,35 @@ GOOGLE_CREDENTIALS_PATH = Path(
 )
 GOOGLE_TOKEN_PATH = Path(os.getenv("GOOGLE_TOKEN_PATH", BASE_DIR / "token.json"))
 
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
+# Tried in order; each model has its own free-tier quota.
+DEFAULT_MODEL_NAMES = [
+    "gemini-3.5-flash",
+    "gemini-3.6-flash",
+    "gemini-3.8-flash",
+    "gemini-3.5-flash-lite",
+]
+
+
+def _parse_model_list(value: Any) -> list[str]:
+    """Accept a TOML array or a comma-separated string of model names."""
+    if not value:
+        return []
+    items = value.split(",") if isinstance(value, str) else list(value)
+    names = (str(item).strip() for item in items)
+    return list(dict.fromkeys(name for name in names if name))
+
+
+def _resolve_model_names(models: Any, primary: Any = None) -> list[str]:
+    """GEMINI_MODELS wins; a legacy GEMINI_MODEL goes first, then the defaults."""
+    explicit = _parse_model_list(models)
+    if explicit:
+        return explicit
+    return _parse_model_list([primary or "", *DEFAULT_MODEL_NAMES])
+
+
+MODEL_NAMES = _resolve_model_names(
+    os.getenv("GEMINI_MODELS"), os.getenv("GEMINI_MODEL")
+)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 APP_PASSWORD = os.getenv("APP_PASSWORD", "")
 
@@ -73,7 +102,7 @@ def _secrets_mapping():
 
 def apply_runtime_secrets() -> None:
     """Load Streamlit Cloud / local secrets into env paths used by the app."""
-    global MODEL_NAME, GEMINI_API_KEY, APP_PASSWORD
+    global MODEL_NAMES, GEMINI_API_KEY, APP_PASSWORD
 
     secrets = _secrets_mapping()
     if not secrets:
@@ -82,9 +111,11 @@ def apply_runtime_secrets() -> None:
     if secrets.get("GEMINI_API_KEY"):
         GEMINI_API_KEY = str(secrets["GEMINI_API_KEY"])
         os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
-    if secrets.get("GEMINI_MODEL"):
-        MODEL_NAME = str(secrets["GEMINI_MODEL"])
-        os.environ["GEMINI_MODEL"] = MODEL_NAME
+    if secrets.get("GEMINI_MODELS") or secrets.get("GEMINI_MODEL"):
+        MODEL_NAMES = _resolve_model_names(
+            secrets.get("GEMINI_MODELS"), secrets.get("GEMINI_MODEL")
+        )
+        os.environ["GEMINI_MODELS"] = ",".join(MODEL_NAMES)
     if secrets.get("APP_PASSWORD"):
         APP_PASSWORD = str(secrets["APP_PASSWORD"])
         os.environ["APP_PASSWORD"] = APP_PASSWORD

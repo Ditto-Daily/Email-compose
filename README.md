@@ -109,6 +109,19 @@ Single-email **Draft** still uses one call (needed for one-off replies). Use **D
 - Promotions / Social / generic Updates stay out of the queue (less junk drafted).
 - Shopify `mailer@shopify.com` is allow-listed so contact-form tickets still appear.
 
+### Model fallback list
+
+`GEMINI_MODELS` (Streamlit secret) is an ordered list. Each Gemini model has its own free-tier quota, so the list adds their daily allowances together.
+
+For every request (`llm_engine._generate_with_retry`):
+
+- **503 / 5xx (overloaded)** → wait 2s, then 5s, retry the same model, then move to the next.
+- **429 (quota used up) / 404 (model not available to this key)** → move to the next model immediately.
+- **Any other error** (e.g. bad key) → fail straight away with the real message.
+- If every model fails, the UI shows which models were tried and why.
+
+One Draft All request covers up to 20 emails, so a model with 20 requests/day can draft up to ~400 emails/day via Draft All.
+
 ---
 
 ## Local development
@@ -124,7 +137,7 @@ pip install -r requirements.txt
 
 export GEMINI_API_KEY="…"
 # optional: export APP_PASSWORD="…"
-# optional: export GEMINI_MODEL="gemini-3.5-flash"
+# optional: export GEMINI_MODELS="gemini-3.5-flash,gemini-3.6-flash,gemini-3.8-flash,gemini-3.5-flash-lite"
 
 streamlit run app.py
 ```
