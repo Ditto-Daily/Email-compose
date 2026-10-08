@@ -5,7 +5,7 @@ Internal tool for DITTO’s CSM (Anita) to draft warm, on-brand replies to custo
 Replies are saved as **Gmail drafts only**. Nothing is sent automatically. Anita reviews and sends from Gmail.
 
 ---
-
+ 
 ## Where it is deployed
 
 | Item | Value |
