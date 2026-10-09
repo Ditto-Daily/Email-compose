@@ -173,65 +173,8 @@ def get_gmail_service():
 SHOPIFY_CONTACT_FROM = "mailer@shopify.com"
 
 
-# Safety ceiling so a huge backlog can't make the dashboard unusably slow.
-MAX_UNREAD_EMAILS = 500
-LIST_PAGE_SIZE = 100
-# Gmail allows up to 100 calls per batch request; stay well under.
-FETCH_BATCH_SIZE = 50
-
-
-def _list_unread_ids(service, query: str, limit: int) -> list[str]:
-    """Page through messages.list until all matches (or limit) are collected."""
-    ids: list[str] = []
-    page_token: str | None = None
-    while len(ids) < limit:
-        response = (
-            service.users()
-            .messages()
-            .list(
-                userId="me",
-                q=query,
-                maxResults=min(LIST_PAGE_SIZE, limit - len(ids)),
-                pageToken=page_token,
-            )
-            .execute()
-        )
-        ids.extend(item["id"] for item in response.get("messages", []))
-        page_token = response.get("nextPageToken")
-        if not page_token:
-            break
-    return ids
-
-
-def _fetch_messages(service, message_ids: list[str]) -> list[dict[str, Any]]:
-    """Fetch full messages in Gmail batch requests (one HTTP call per chunk)."""
-    fetched: dict[str, dict[str, Any]] = {}
-    errors: dict[str, Exception] = {}
-
-    def _on_response(request_id, response, exception):
-        if exception is not None:
-            errors[request_id] = exception
-        else:
-            fetched[request_id] = response
-
-    for start in range(0, len(message_ids), FETCH_BATCH_SIZE):
-        chunk = message_ids[start : start + FETCH_BATCH_SIZE]
-        batch = service.new_batch_http_request(callback=_on_response)
-        for message_id in chunk:
-            batch.add(
-                service.users().messages().get(userId="me", id=message_id, format="full"),
-                request_id=message_id,
-            )
-        batch.execute()
-
-    for message_id, exc in errors.items():
-        logger.warning("Could not fetch message %s: %s", message_id, exc)
-    # Preserve Gmail's newest-first ordering.
-    return [fetched[i] for i in message_ids if i in fetched]
-
-
-def get_unread_emails(max_results: int = MAX_UNREAD_EMAILS) -> list[dict[str, Any]]:
-    """Return parsed unread inbox messages, excluding Promotions and Social.
+def get_unread_emails() -> list[dict[str, Any]]:
+    """Return ALL parsed unread inbox messages, excluding Promotions and Social.
 
     Updates are excluded except for Shopify contact-form mail
     (mailer@shopify.com), which Anita needs to draft replies for.
@@ -242,8 +185,30 @@ def get_unread_emails(max_results: int = MAX_UNREAD_EMAILS) -> list[dict[str, An
         "is:unread in:inbox -category:promotions -category:social "
         f"(-category:updates OR from:{SHOPIFY_CONTACT_FROM})"
     )
-    message_ids = _list_unread_ids(service, query, max_results)
-    return [_parse_message(m) for m in _fetch_messages(service, message_ids)]
+    message_ids: list[str] = []
+    page_token = None
+    while True:
+        response = (
+            service.users()
+            .messages()
+            .list(userId="me", q=query, maxResults=100, pageToken=page_token)
+            .execute()
+        )
+        message_ids.extend(item["id"] for item in response.get("messages", []))
+        page_token = response.get("nextPageToken")
+        if not page_token:
+            break
+
+    emails: list[dict[str, Any]] = []
+    for message_id in message_ids:
+        message = (
+            service.users()
+            .messages()
+            .get(userId="me", id=message_id, format="full")
+            .execute()
+        )
+        emails.append(_parse_message(message))
+    return emails
 
 
 def create_draft(
